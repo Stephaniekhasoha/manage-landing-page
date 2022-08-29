@@ -1,2 +1,1 @@
-# manage-landing-page
-created a new repository
+manage landing page
