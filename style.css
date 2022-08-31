@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+:root {
+    /* primary colors */
+    --col1: hsl(12, 88%, 59%);
+    --col2: hsl(228, 39%, 23%); 
+
+    /* Neutrals */
+    --neu1: hsl(227, 12%, 61%);
+    --neu2: hsl(233, 12%, 13%);
+    --neu3: hsl(13, 100%, 96%);
+    --neu4: hsl(0, 0%, 98%);
+
+    /* Typography */
+    --ff:  'Be Vietnam Pro', sans-serif;
+    --fs: 16px;
+    --fw1: 400;
+    --fw2: 500;
+    --fw3: 700;
+}
+
+@media  screen and (max-width: 375px){
+    body {
+        background-color: var(--neu4);
+    }
+/* navbar begins */
+    .navcta {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .navlogo > img {
+        width: 100px;
+    }
+
+    /* navbar end */
+
+
+    /* hero section */
+    .hero {
+        background-image: url(./images/bg-tablet-pattern.svg);
+        display: inline-flex;
+        flex-direction: column-reverse;
+    }
+
+    .heroleft {
+        align-content: center;
+        align-items: center;
+    }
+
+    .heroheading, .herodes {
+        text-align: center;
+    }
+
+    .herocta {
+        text-align: center;
+    }
+
+    .herocta > button {
+        background-color: var(--col1);
+        color: var(--neu4);
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: none;
+        font-size: 12px;
+    }
+}
+
+    
+/* @media screen and (min-width:376px) , (max-width:1365){
+    body {
+        background-color: rgb(165, 42, 42);
+    }
+} */
+@media screen and (min-width:1366px){
+    body {
+        background-color: rgb(43, 32, 19);
+    }
+}
