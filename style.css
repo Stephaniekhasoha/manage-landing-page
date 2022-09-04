@@ -23,6 +23,10 @@
     body {
         background-color: var(--neu4);
     }
+
+    h1, h2, h5, p {
+        font-family: var(--ff);
+    }
 /* navbar begins */
     .navcta {
         display: none;
@@ -57,11 +61,22 @@
 
     .heroheading, .herodes {
         text-align: center;
+        /* font-family: var(--ff); */
     }
 
     .herocta {
         text-align: center;
     }
+    .heroheading{
+        color: var(--col2);
+    }
+
+    .herodes {
+        color: var(--neu1);
+        font-size: 14px;
+        line-height: 24px;
+    }
+
 
     .herocta > button {
         background-color: var(--col1);
@@ -70,7 +85,44 @@
         border-radius: 50px;
         border: none;
         font-size: 12px;
+        text-align: center;
+        margin-bottom: 50px;
     }
+
+    .heroright > img{
+        width: 250px;
+
+    }
+    /* hero section end */
+
+
+    /* manage section value */
+
+    .value {
+        margin-top: 50px;
+    }
+    .valueleft {
+        text-align: center;
+    }
+
+    .valueleft > h1 {
+        color: var(--col2);
+    }
+
+    .valueleft > p {
+        color: var(--neu1);
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .valuright {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .valuelist {
+        display: flex;
+    }
+    /* End */
 }
 
     
