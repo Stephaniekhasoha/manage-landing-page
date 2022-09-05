@@ -122,7 +122,105 @@
     .valuelist {
         display: flex;
     }
+
+    .valueindex > h5 {
+        background-color: var(--col1);
+        color: var(--neu3);
+        padding: 5px 15px; /* 5px represents top and bottom 15px represents left and right*/
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .valueinfo > h5{
+        background-color:var(--neu3);
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 14px;
+        margin-left: -10px;
+        color: var(--col2);
+        margin-right: -18px;
+
+    }
+
+    .valueinfo > p {
+        color: var(--neu1);
+        font-size: 12px;
+        margin-left: -44px;
+        margin-top: -12px;
+        line-height: 24px;
+    }
+    
     /* End */
+
+
+    /* Testimonial section */
+    .testimonial {
+        text-align: center;
+        padding-top: 18px;
+    }
+
+    .testimonial > h1, h5 {
+        color: var(--col2);
+    }
+
+    .testimonial-info > h5 {
+        font-size: 16px;
+        color: var(--col2);
+    }
+
+    .testimonial-info > img {
+        width: 80px;
+    }
+
+    .testimonial-info > p {
+        color: var(--neu1);
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: -10px;
+    }
+
+    .testimonial > button {
+        background-color: var(--col1);
+        color: var(--neu4);
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: none;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+        /* End */
+
+        /* section cta */
+        .cta {
+            background-color: var(--col1);
+            background-image: url(./images/bg-simplify-section-mobile.svg);
+            background-repeat: no-repeat;
+            color: var(--neu3);
+            text-align: center;
+            padding-top: 48px;
+            padding-bottom: 68px;
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+
+        .cta > h1 {
+            font-size: 24px;
+            margin-left: 48px;
+            margin-right: 48px;
+        }
+
+        .cta > button {
+            background-color: var(--neu3);
+        color: var(--col1);
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: none;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 50px;
+        }
+        /* End */
 }
 
     
