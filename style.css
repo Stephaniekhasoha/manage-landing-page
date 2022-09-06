@@ -20,7 +20,12 @@
     --fw3: 700;
 }
 
-@media  screen and (max-width: 375px){
+/* Mobile screen */
+* {
+    box-sizing: border-box;
+    outline: 1px solid limegreen;
+}
+@media  screen and (max-width: 428px){
     body {
         background-color: var(--neu4);
     }
@@ -90,8 +95,12 @@
         margin-bottom: 50px;
     }
 
+    .heroright {
+        text-align: center;
+    }
+
     .heroright > img{
-        width: 250px;
+        width: 412px;
 
     }
     /* hero section end */
@@ -250,6 +259,7 @@
         .links {
             display: flex;
             padding-left: 20px;
+            justify-content: center;
         }
 
         ul, li {
@@ -257,8 +267,26 @@
             list-style-type: none;
             font-size: 12px;
             line-height: 24px;
+        }
+
+        .newsletter {
+            padding: 20px;
 
         }
+
+        .email {
+            padding: 12px 16px;
+            border-radius: 50px;
+        }
+
+        .submit {
+            padding: 12px 24px;
+            border-radius: 50px;
+            border: none;
+            color: var(--neu3);
+            background-color: var(--col1);
+        }
+
         /* End */
 }
 
